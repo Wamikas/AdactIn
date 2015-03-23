@@ -1,0 +1,15 @@
+01:00:23.118 [DEBU] Runner exited with error: [exit status 1]
+01:00:23.119 [DEBU] Runner connection error: [Runner exited with error: exit status 1
+]
+01:00:23.119 [DEBU] Error while killing runner: [os: process already finished]
+01:01:31.759 [INFO]  create  manifest.json
+01:01:31.759 [INFO]  skip  manifest.json
+01:01:31.759 [INFO]  create  specs
+01:01:31.759 [INFO]  skip  specs
+01:01:31.759 [INFO]  create  specs/hello_world.spec
+01:01:31.759 [INFO]  skip  specs/hello_world.spec
+01:01:31.759 [INFO]  create  env
+01:01:31.760 [INFO]  create  env/default
+01:01:31.760 [INFO]  create  env/default/default.properties
+01:01:31.770 [INFO] 
+Successfully initialized the project. Run specifications with "gauge specs/"
