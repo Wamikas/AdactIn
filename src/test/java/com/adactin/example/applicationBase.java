@@ -1,19 +1,29 @@
 package com.adactin.example;
 
-import org.junit.*;
-import static org.junit.Assert.*;
-import org.openqa.selenium.*;
+import com.thoughtworks.gauge.Step;
+import org.junit.After;
+import org.junit.Before;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.Select;
 
 
 public class applicationBase {
-    private WebDriver driver;
+    private WebDriver browser;
     private String baseUrl;
 
+    @Before
     public void setUp() throws Exception {
-        driver = new FirefoxDriver();
+        browser = new FirefoxDriver();
         baseUrl = "http://adactin.com/";
-        driver.get(baseUrl + "/HotelApp/");
     }
-}
+
+    @Step("User must be at the login page")
+    public void NavigateToHome() {
+        browser.get(baseUrl + "/HotelApp/");
+
+    }
+    @After
+    public void tearDown() throws Exception {
+        browser.quit();
+        }
+    }
