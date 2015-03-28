@@ -9,3 +9,5 @@
 01:24:42.250 [ERRO] Spec Parse failure: /Users/wamikas/IdeaProjects/AdactIn/specs/com.adactin.example.pages.login.spec line no: 13, Step should not be blank
 01:24:45.253 [ERRO] Spec Parse failure: /Users/wamikas/IdeaProjects/AdactIn/specs/com.adactin.example.pages.login.spec line no: 13, Step should not be blank
 01:24:48.255 [ERRO] Spec Parse failure: /Users/wamikas/IdeaProjects/AdactIn/specs/com.adactin.example.pages.login.spec line no: 13, Step should not be blank
+14:31:43.165 [ERRO] Runner connection failed: Runner exited with error: exit status 1
+16:26:06.445 [ERRO] Error response from runner on getStepNamesRequest: Connection closed [127.0.0.1:58647] cause: EOF

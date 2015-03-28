@@ -20,3 +20,19 @@ Successfully initialized the project. Run specifications with "gauge specs/"
 02:48:37.258 [INFO] Successfully installed plugin => html-report 
 02:49:39.480 [CRIT] Failed to add plugin webdriver to project : webdriver  is not installed
 02:49:56.057 [WARN] Failed to install plugin webdriver : Could not download webdriver-install.json file. Invalid plugin name
+14:31:42.413 [INFO]  create  manifest.json
+14:31:42.413 [INFO]  skip  manifest.json
+14:31:42.414 [INFO]  create  specs
+14:31:42.414 [INFO]  skip  specs
+14:31:42.414 [INFO]  create  specs/hello_world.spec
+14:31:42.414 [INFO]  create  env
+14:31:42.414 [INFO]  create  env/default
+14:31:42.414 [INFO]  create  env/default/default.properties
+14:31:42.422 [INFO] 
+Successfully initialized the project. Run specifications with "gauge specs/"
+14:31:43.164 [DEBU] Runner exited with error: [exit status 1]
+14:31:43.165 [DEBU] Runner connection error: [Runner exited with error: exit status 1
+]
+14:31:43.165 [DEBU] Error while killing runner: [os: process already finished]
+16:26:06.446 [DEBU] Runner exited with error: [exit status 1]
+16:26:07.450 [WARN] Validation failed. The following steps have errors
